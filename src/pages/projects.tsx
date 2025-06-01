@@ -99,7 +99,7 @@ export default function Projects() {
                         <h2>{project.title}</h2>
                       </div>
                       <div className="description">
-                        <p>{project.description}</p>
+                        {/* <p>{project.description}</p> */}
                         <h4 style={{marginBottom:"1rem"}} className="date">Tech Stack:</h4>
                         <div className="tags">
                           {project.tech.map((tag) => {
@@ -107,7 +107,7 @@ export default function Projects() {
                           })}
                         </div>
                       </div>
-                      <Link href={`/project/${project.url}`}>
+                      
                         <T.ButtonAlternatives>
                           View Project
                           <ArrowRight
@@ -118,7 +118,7 @@ export default function Projects() {
                             size={16}
                           />
                         </T.ButtonAlternatives>
-                      </Link>
+                     
                     </div>
                   </S.ProjectsItem>
                 </>
