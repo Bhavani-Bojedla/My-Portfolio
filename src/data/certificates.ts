@@ -1,129 +1,123 @@
 const certificates = [
-  // {
-  //   id: 5,
-  //   title: {
-  //     en: 'Google Data Analytics Specialization',
-  //     ta: 'கூகுள் தரவுகள் பகுப்பாய்வு சிறப்பு',
-  //   },
-  //   subTitle: {
-  //     en: 'Click here to see certificate',
-  //     ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
-  //   },
-  //   status: {
-  //     en: 'Completed',
-  //     ta: 'நிறைவு',
-  //   },
-  //   level: {
-  //     en: 'March 2024',
-  //     ta: 'மார்ச் 2024',
-  //   },
-  //   link: 'https://www.coursera.org/account/accomplishments/specialization/CGZH32563NGH',
-  //   description: {
-  //     en: 'Credentials ID: CGZH32563NGH \n\nSkills Acquired: Data Analysis, Microsoft Excel, Python\n\n',
-  //     ta: 'அங்கீகார ஐடி: CGZH32563NGH \n\nபெற்ற திறன்கள்: தரவுகள் பகுப்பாய்வு, மைக்ரோசாஃப்ட் எக்செல், Python\n\n',
-  //   },
-  //   logo: '/certi/coursera_logo.jpeg',
-  // },
-  // {
-  //   id: 4,
-  //   title: {
-  //     en: 'Google IT Support',
-  //     ta: 'கூகுள் ஐடி ஆதரவு',
-  //   },
-  //   subTitle: {
-  //     en: 'Click here to see certificate',
-  //     ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
-  //   },
-  //   status: {
-  //     en: 'Completed',
-  //     ta: 'நிறைவு',
-  //   },
-  //   level: {
-  //     en: 'October 2023',
-  //     ta: 'அக்டோபர் 2023',
-  //   },
-  //   link: 'https://www.coursera.org/account/accomplishments/professional-cert/7B6496VHSVNK?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof',
-  //   description: {
-  //     en: 'Credentials ID: 7B6496VHSVNK \n\nSkills Acquired: IT Service Management, Computer Networking, System Administration, IT Management, IT Security, IT Support \n\n',
-  //     ta: 'அங்கீகார ஐடி: 7B6496VHSVNK \n\nபெற்ற திறன்கள்: ஐடி சேவை மேலாண்மை, கணினி நெட்வொர்க்கிங், சிஸ்டம் நிர்வாகம், ஐடி மேலாண்மை, ஐடி பாதுகாப்பு, ஐடி ஆதரவு \n\n',
-  //   },
-  //   logo: '/certi/coursera_logo.jpeg',
-  // },
   {
     id: 3,
     title: {
-      en: 'Microsoft AI Fundamentals',
-      ta: 'மைக்ரோசாஃப்ட் ஏஐ அடிப்படைகள்',
+      en: 'AWS Certified Cloud Practitioner'
     },
     subTitle: {
-      en: 'Click here to see certificate',
-      ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
+      en: 'Click here to see certificate'
     },
     status: {
-      en: 'Completed',
-      ta: 'நிறைவு',
+      en: 'Completed'
     },
     level: {
-      en: 'March 2023',
-      ta: 'மார்ச் 2023',
+      en: 'May 2025'
     },
-    link: 'https://www.credly.com/badges/8e6fd35d-7614-462f-8f2a-af895223de59/linked_in_profile',
+    link: 'https://www.credly.com/badges/a5ca41f4-07e9-41d5-99dd-88871e22c2d0/public_url',
     description: {
-      en: 'Credentials ID: 59P50A-5A62A6 \n\nSkills Acquired: Azure AI Fundamentals\n\n',
-      ta: 'அங்கீகார ஐடி: 59P50A-5A62A6 \n\nபெற்ற திறன்கள்: அசூர் ஏஐ அடிப்படைகள்\n\n',
+      en: 'Skills Acquired: AWS Fundamentals covering Cloud Concepts, Security, Core Services, and Pricing Models.'
     },
-    logo: '/certi/microsoft_logo.jpeg',
+    logo: '/certi/aws.png',
   },
   {
     id: 2,
     title: {
-      en: 'Microsoft Azure Fundamentals',
-      ta: 'மைக்ரோசாஃப்ட் அசூர் அடிப்படைகள்',
+      en: 'Mern Stack Developer'
     },
     subTitle: {
-      en: 'Click here to see certificate',
-      ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
+      en: 'Click here to see certificate'
     },
     status: {
-      en: 'Completed',
-      ta: 'நிறைவு',
+      en: 'Completed'
     },
     level: {
-      en: 'Feb 2023',
-      ta: 'பிப்ரவரி 2023',
+      en: 'JULY 2024'
     },
-    link: 'https://www.credly.com/badges/399438ce-4210-4e08-af50-e9409d1343cf/public_url',
+    link: 'https://drive.google.com/file/d/13cVfn5IIJ6lZbfZWSujdatr489h009Vf/view?usp=sharing',
     description: {
-      en: 'Credentials ID: B3ED2D-F3919B \n\nSkills Acquired: Azure Fundamentals\n\n',
-      ta: 'அங்கீகார ஐடி: B3ED2D-F3919B \n\nபெற்ற திறன்கள்: அசூர் அடிப்படைகள்\n\n',
+      en: 'Skills Acquired: React JS, Node JS, Express JS, MongoDB.'
     },
-    logo: '/certi/microsoft_logo.jpeg',
+    logo: '/certi/ethnus1.png',
   },
   {
     id: 1,
     title: {
-      en: 'SoftSkills NPTEL',
-      ta: 'மென்மையான திறன்கள் NPTEL',
+      en: 'Postman API Fundamentals'
     },
     subTitle: {
-      en: 'Click here to see certificate',
-      ta: 'சான்றிதழைப் பார்க்க இங்கே கிளிக் செய்யவும்',
+      en: 'Click here to see certificate'
     },
     status: {
-      en: 'Completed',
-      ta: 'நிறைவு',
+      en: 'Completed'
     },
     level: {
-      en: 'October 2022',
-      ta: 'அக்டோபர் 2022',
+      en: 'JULY 2024'
     },
-    link: 'https://archive.nptel.ac.in/content/noc/NOC22/SEM2/Ecertificates/109/noc22-hs76/Course/NPTEL22HS76S5447196610098361.jpg',
+    link: 'https://badgr.com/public/assertions/R1NdSPW2Q46Wd9HSI9buUQ?identity__email=bhavanibojadla8@gmail.com',
     description: {
-      en: 'Credentials ID: Nil \n\nSkills Acquired: Communication \n\n',
-      ta: 'அங்கீகார ஐடி: இல்லை \n\nபெற்ற திறன்கள்: தொடர்பு \n\n',
+      en: 'Skills Acquired: Postman API'
     },
-    logo: '/certi/nptel.jpeg',
+    logo: '/certi/postman.png',
   },
+  {
+    id: 1,
+    title: {
+      en: 'Mastering Figma: Beginner to Expert UI/UX Design'
+    },
+    subTitle: {
+      en: 'Click here to see certificate'
+    },
+    status: {
+      en: 'Completed'
+    },
+    level: {
+      en: 'MAY 2024'
+    },
+    link: 'https://www.guvi.in/share-certificate/g244N1uH1BFm7h1176',
+    description: {
+      en: 'Skills Acquired: Figma'
+    },
+    logo: '/certi/guvi.png',
+  },{
+    id: 1,
+    title: {
+      en: 'Java 11 Essentials'
+    },
+    subTitle: {
+      en: 'Click here to see certificate'
+    },
+    status: {
+      en: 'Completed'
+    },
+    level: {
+      en: 'JUN 2023'
+    },
+    link: 'https://drive.google.com/file/d/18hkxf4av2PyT_74-wUXJFl4HOsDGTbo-/view?usp=sharing',
+    description: {
+      en: 'Skills Acquired: Java'
+    },
+    logo: '/certi/infosys.png',
+  },{
+    id: 1,
+    title: {
+      en: 'Python for Data Science'
+    },
+    subTitle: {
+      en: 'Click here to see certificate'
+    },
+    status: {
+      en: 'Completed'
+    },
+    level: {
+      en: 'JUN 2023'
+    },
+    link: 'https://courses.cognitiveclass.ai/certificates/8a47d2fc209e4a3f90a3e1fb2bda3b62#',
+    description: {
+      en: 'Skills Acquired: Python'
+    },
+    logo: '/certi/ibm.png',
+  },
+  
 ];
 
 export default certificates;

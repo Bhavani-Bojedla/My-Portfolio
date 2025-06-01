@@ -9,9 +9,9 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components'
 
 const meta = {
-  title: 'Saravanakumar Portfolio',
+  title: 'Bhavani Bojedla Portfolio',
   description:
-    'Saravanakumar Portfolio',
+    'Bhavani Bojedla Portfolio',
   image:
     'https://raw.githubusercontent.com/Saravanakumar2003/Portfolio/main/public/ogimage.png'
 }

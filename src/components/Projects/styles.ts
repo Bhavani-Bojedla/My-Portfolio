@@ -53,14 +53,15 @@ export const ProjectsContent = styled.div`
 
   .title {
     position: absolute;
-    padding: 0 1rem 2.2rem 1rem;
-
+    padding: 0 0rem 1rem 1rem;
+    padding-top:1rem;
     bottom: 0;
     height: 100%;
     width: 100%;
     display: flex;
+    
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: flex-start;
     background: linear-gradient(rgb(0, 0, 0, 0) -60%, rgb(8, 2, 5, 15));
 
@@ -73,8 +74,8 @@ export const ProjectsContent = styled.div`
     }
 
     h2 {
-      font-weight: 900;
-      font-size: 1.9rem;
+      font-weight: 800;
+      font-size: 1.5rem;
       text-align: center;
       color: ${props => props.theme.firstColor};
     }

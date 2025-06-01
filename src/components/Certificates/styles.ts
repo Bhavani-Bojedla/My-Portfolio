@@ -28,10 +28,20 @@ export const EducationContent = styled.div`
   }
 `;
 
-export const EducationList = styled.div`
-  display: inline-block;
-  vertical-align: top;
+export const EducationList = styled.div<{ $isRow?: boolean }>`
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
+  flex-direction: ${props => (props.$isRow ? 'row' : 'column')};
+  width: 100%;
+`;
+export const EducationListRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 `;
 
 export const List = styled.div`

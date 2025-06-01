@@ -140,15 +140,8 @@ export default function About() {
 
       {/* Social Begins */}
 
-      <Title>
-        {currentLang === 'ta' ? 'LinkedIn பதிவு' : 'LinkedIn Post'}
-        <span>
-          <BsLinkedin /> {currentLang === 'ta' ? 'சமீபத்திய' : 'Latest'}
-        </span>
-      </Title>
-      <S.InBox>
-        <Linkedin />
-      </S.InBox>
+      
+      
       <Title>
         {currentLang === 'ta' ? 'இன்ஸ்டாகிராம் பதிவு' : 'Instagram Post'}
         <span>

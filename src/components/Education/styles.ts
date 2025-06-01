@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const EducationContainer = styled.div`
   display: flex;
-  background-color: ${props => props.theme.backgroundAlt};
+  background-color: ${props => props.theme.backgroundAlt}; 
 `
 
 export const EducationContent = styled.div`
@@ -24,26 +24,5 @@ export const EducationContent = styled.div`
       text-align: justify;
     }
 
-  p { 
-    margin-top: 1.3rem;
-    font-size: 1rem;
-    text-align: justify;
-  }
 
-  ul {
-    margin: 1rem 0;
-
-    h3 {
-      margin-bottom: .5rem;
-      font-size: 1.3rem;
-    }
-
-    .tag{
-      display: flex;
-      gap: .5rem;
-
-      img {
-        width: 2rem;
-      }
-  }
 `

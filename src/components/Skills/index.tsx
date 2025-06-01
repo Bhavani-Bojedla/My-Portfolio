@@ -17,15 +17,7 @@ interface Skills {
 }
 
 export function Skills() {
-  const { t, i18n } = useTranslation('common'); // Use the 'common' namespace
-  const router = useRouter();
-  const [currentLang, setCurrentLang] = useState<'en' | 'ta'>('en');
-
-  useEffect(() => {
-    const { locale } = router;
-    setCurrentLang(locale as 'en' | 'ta');
-  }, [router.locale]);
-
+  
   return (
     <Container>
       <Vector>
@@ -37,9 +29,9 @@ export function Skills() {
         </div>
       </Vector>
       <Title>
-        {currentLang === 'ta' ? 'திறன்கள்' : 'Skills'}
+        Skills
         <span>
-          <BsCodeSquare /> {currentLang === 'ta' ? 'சிறந்தவை' : 'Top'}
+          Top
         </span>
       </Title>
       <SkillsContainer>
@@ -51,10 +43,10 @@ export function Skills() {
                 width={60}
                 height={60} 
                 src={skill.img} 
-                alt={skill.title[currentLang]}
+                alt={skill.title}
                 loading='lazy'
               />
-              <h4>{skill.title[currentLang]}</h4>
+              <h4>{skill.title}</h4>
               <span className='border'></span>
             </SkillsContent>
           )
