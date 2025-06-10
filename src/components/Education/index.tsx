@@ -122,6 +122,7 @@ import { EducationContainer, EducationContent } from './styles'
 import { Student } from 'phosphor-react'
 import Link from "next/link"
 import { useTheme } from 'styled-components'
+import exp from 'constants'
 
 export function Education() {
   const theme = useTheme()
@@ -149,7 +150,7 @@ export function Education() {
                 contentArrowStyle={{
                   borderRight: `10px solid ${theme.backgroundAlt}`
                 }}
-                
+                date= {education.date.en}
                 icon={
                   <Image
                     style={{ position: 'relative', width: '100%', height: '100%', borderRadius: '60%' }}
@@ -172,7 +173,7 @@ export function Education() {
                     <h2>{education.subTitle.en}</h2>
                     <span>{education.office.en}</span>
                     <h3>Grade: {education.grade}</h3>
-                    <span>{education.date.en}</span>
+                    {/* <span>{education.date.en}</span> */}
                   </EducationContent>
                 </EducationContainer>
               </VerticalTimelineElement>

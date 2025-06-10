@@ -11,7 +11,10 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { FaSearch } from "react-icons/fa";
 import { ArrowRight } from "phosphor-react";
 import Github from "../components/Github/Github";
-
+import styled from "styled-components";
+const ProjectTitle = styled.h2`
+  color: ${(props) => props.theme.firstColor};
+`;
 const botkey = process.env.NEXT_PUBLIC_BOTKEY_URL;
 
 interface ProjectsProps {
@@ -32,22 +35,21 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | Saravanakumar </title>
-        <meta
+        <title>Projects | BhavaniBojedla </title>
+        {/* <meta
           name="description"
           content="I love to code using tools like React, NextJS, Tailwind, Styled Components and more! Here are some of my favorite projects."
         />
-        <meta property="og:title" content="Projects | Saravanakumar" />
+        <meta property="og:title" content="Projects | Bhavani-Bojedla" />
         <meta
           property="og:description"
           content="I love to code using tools like React, NextJS, Tailwind, Styled Components and more! Here are some of my favorite projects."
-        />
+        /> */}
       </Head>
 
       <ScrollTop />
       <T.Section>
         <T.Title>
-          <p>../projects</p>
           Project Works
           <span>
             <HiOutlineDesktopComputer /> Projects
@@ -70,6 +72,10 @@ export default function Projects() {
                   placeholder="Type here..."
                   value={query}
                   onChange={handleChange}
+                  style={{
+                    color: "white",
+                    fontSize: "1rem",
+                  }}
                 />
                 <FaSearch />
               </div>
@@ -96,40 +102,37 @@ export default function Projects() {
 
                     <div>
                       <div className="title">
-                        <h2>{project.title}</h2>
+                        <ProjectTitle>{project.title}</ProjectTitle>
                       </div>
                       <div className="description">
-                        {/* <p>{project.description}</p> */}
-                        <h4 style={{marginBottom:"1rem"}} className="date">Tech Stack:</h4>
+                        <h4 style={{ marginBottom: "1rem" }} className="date">
+                          Tech Stack:
+                        </h4>
                         <div className="tags">
                           {project.tech.map((tag) => {
                             return <span key={tag.name}>{tag.name}</span>;
                           })}
                         </div>
                       </div>
-                      
-                        <T.ButtonAlternatives>
-                          View Project
-                          <ArrowRight
-                            style={{
-                              marginBottom: "-0.1rem",
-                            }}
-                            weight="bold"
-                            size={16}
-                          />
-                        </T.ButtonAlternatives>
-                     
+
+                      <T.ButtonAlternatives>
+                        <Link href={project.github}>View Project</Link>
+                        <ArrowRight
+                          style={{
+                            marginBottom: "-0.1rem",
+                          }}
+                          weight="bold"
+                          size={16}
+                        />
+                      </T.ButtonAlternatives>
                     </div>
                   </S.ProjectsItem>
                 </>
               );
             })}
-
-            
           </S.ProjectsContent>
         </S.ProjectsContainer>
         <T.Title>
-          <p>../github</p>
           Github Profile
           <span>
             <HiOutlineDesktopComputer /> Stats
@@ -137,16 +140,19 @@ export default function Projects() {
         </T.Title>
         <Github />
         <p className="github">
-              Hey, hey... I have more projects on{" "}
-              <a href="https://github.com/Saravanakumar2003" style={{textDecoration: 'underline',}}> my GitHub </a>
-              !!
+          Hey, hey... I have more projects on{" "}
+          <a
+            href="https://github.com/bhavani-bojedla"
+            style={{ textDecoration: "underline" }}
+          >
+            {" "}
+            my GitHub{" "}
+          </a>
+          !!
         </p>
       </T.Section>
       <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-      <script
-        src={botkey}
-        defer
-      ></script>
+      <script src={botkey} defer></script>
       <Footer />
     </>
   );

@@ -6,13 +6,11 @@ import { Header } from '../components/Header';
 import NextNprogress from 'nextjs-progressbar'
 import { ThemeProvider } from '../context/ThemeContext';
 import { GlobalStyles } from '../styles/global';
-import { Toaster } from '../components/Toaster'
 import { MantineProvider } from '@mantine/core'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { initGA, logPageView } from '../utils/analytics';
 import { lightTheme } from '../styles/themes/default';
-import CookiesConsent from "../components/Cookies/CookiesConsent";
 import "../styles/globals.css";
 
 const botkey = process.env.NEXT_PUBLIC_BOTKEY_URL;
@@ -73,11 +71,9 @@ function MyApp({ Component, pageProps }: AppProps) {
             height={3}
             showOnShallow
           />
-          <Toaster />
           <Header />
           <GlobalStyles />
           <Component {...pageProps} />
-          <CookiesConsent />
           <Analytics />
           <SpeedInsights />
           <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>

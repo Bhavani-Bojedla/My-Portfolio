@@ -84,7 +84,6 @@ const experience = [
     },
     tags: [
       { name: 'Web Development', icon: '/icons/web.jpeg' },
-      { name: 'Azure', icon: '/icons/Azure.png' },
       { name: 'Mentoring', icon: '/icons/mentoring.jpeg' },
       { name: 'Gitlab', icon: '/icons/Github.png' },
     ],

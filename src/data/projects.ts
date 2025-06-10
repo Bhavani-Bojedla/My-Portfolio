@@ -3,7 +3,7 @@ const projects = [
     id: 6,
     img: '/projects/sms.webp',
     title: 'School Management System',
-    icon: '/projects/HydroSense/Icon.png',
+    icon: '/projects/HydroSense/Icon.ng',
     live:'https://school-management-system-five-phi.vercel.app/',
     github: 'https://github.com/Bhavani-Bojedla/School-Management-System',
     tags: [

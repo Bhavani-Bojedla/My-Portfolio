@@ -1,10 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSun, FaMoon, FaPlay, FaPause } from 'react-icons/fa';
-import { Translate } from 'phosphor-react'
 import { MdFormatSize } from "react-icons/md";
-import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
-import { useRouter } from 'next/router';
 
 interface SettingsProps {
   toggleTheme: () => void;
@@ -95,18 +92,12 @@ const Small = styled.small`
 `;
 
 const Settings: React.FC<SettingsProps> = ({ toggleTheme, currentTheme }) => {
-  const { t } = useTranslation();
-  const router = useRouter();
   const [audioVisible, setAudioVisible] = useState(false);
   const [fontSize, setFontSize] = useState(16);
-  const [showLanguageOptions, setShowLanguageOptions] = useState(false);
   const [showFontSizeOptions, setShowFontSizeOptions] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  const changeLanguage = (lang: string) => {
-    router.push(router.pathname, router.asPath, { locale: lang });
-  };
-
+  
   const increaseFontSize = () => {
     setFontSize(prevSize => prevSize + 2);
     document.documentElement.style.fontSize = `${fontSize + 2}px`;
@@ -150,15 +141,6 @@ const Settings: React.FC<SettingsProps> = ({ toggleTheme, currentTheme }) => {
         <IconButton onClick={toggleTheme}>
           {currentTheme === 'light' ? <FaMoon /> : <FaSun />}
         </IconButton>
-        <IconButton onClick={() => setShowLanguageOptions(!showLanguageOptions)}>
-          <Translate />
-        </IconButton>
-        {showLanguageOptions && (
-          <Dropdown>
-            <IconButton2 onClick={() => changeLanguage('en')}>EN</IconButton2>
-            <IconButton2 onClick={() => changeLanguage('ta')}>TA</IconButton2>
-          </Dropdown>
-        )}
         <IconButton onClick={() => setShowFontSizeOptions(!showFontSizeOptions)}>
           <MdFormatSize />
         </IconButton>

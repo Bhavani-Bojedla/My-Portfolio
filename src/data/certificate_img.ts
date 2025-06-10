@@ -1,36 +1,43 @@
 const certificates = [
   {
-    id: 2,
+    id: 1,
     name: {
-      en: 'Microsoft Certified: Azure AI Fundamentals'
+      en: 'AWS Certified Cloud Practitioner'
     },
     image: '/certi/aws-certi.png',
   },
   {
-    id: 3,
+    id: 2,
     name: {
-      en: 'Microsoft Certified: Azure Fundamentals'
+      en: 'Mern Stack Developer'
     },
     image: '/certi/mern.png',
   },
   {
-    id: 5,
+    id: 3,
     name: {
-      en: 'Soft Skills'
+      en: 'Postman API Fundamentals'
     },
     image: '/certi/postman-certi.png',
   },  {
-    id: 5,
+    id: 4,
     name: {
-      en: 'Soft Skills'
+      en: 'Java 11 Essentials'
     },
     image: '/certi/java.png',
   }, {
     id: 5,
     name: {
-      en: 'Soft Skills'
+      en: 'Python for Data Science'
     },
     image: '/certi/python.png',
+  },
+   {
+    id: 6,
+    name: {
+      en: 'Mastering Figma: Beginner to Expert UI/UX Design'
+    },
+    image: '/certi/guvi-certi.png',
   },
 ];
 

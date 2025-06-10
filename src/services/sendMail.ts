@@ -9,7 +9,7 @@ export const sendContactMail = async (name: string, email: string, message: stri
   const data = { name, email, message }
 
   try {
-    const templateParams = { from_name: name, email: email, message: message }
+    const templateParams = { name: name, email: email, message: message }
 
     emailjs
       .send(service_id, template_id, templateParams, user_id)

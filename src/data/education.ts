@@ -2,7 +2,7 @@ const education = [
   {
     id: 1,
     url: 'vec',
-    img: '/education/Vec.png',
+    img: '/education/vit.png',
     title: {
       en: 'Vellore Institute of Technology, Andhra Pradesh (VIT-AP)'
     },
@@ -14,14 +14,14 @@ const education = [
     },
     grade: 9.29,
     date: {
-      en: '2022 to 2026'
+      en: '- 2022 to 2026'
     },
    
   },
   {
     id: 2,
     url: 'sethu',
-    img: '/education/Sethu.jpg',
+    img: '/education/narayana.png',
     title: {
       en: 'Narayana Junior College'
     },
@@ -33,13 +33,13 @@ const education = [
     },
     grade: 9.6,
     date: {
-      en: '2020 to 2022'
+      en: '2020 to 2022 -'
     },
   },
   {
     id: 3,
     url: 'sethu',
-    img: '/education/Sethu.jpg',
+    img: '/education/rbps.jpeg',
     title: {
       en: 'Ravindra Bharathi Public School'
     },
@@ -51,7 +51,7 @@ const education = [
     },
     grade: 9.63,
     date: {
-      en: '2019 to 2020'
+      en: '- 2019 to 2020'
     },
   },
 ];

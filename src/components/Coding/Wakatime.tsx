@@ -16,38 +16,8 @@ export function Wakatime() {
         </span>
       </Title>
 
-      <div style={{ margin: '2rem 0' }}>
-        <h1 style={{ textAlign: "center" }}>
-          My coding stats from
-        </h1>
-        <div style={{
-          margin: '1rem 0',
-          border: '2px solid lightblue',
-          borderRadius: '5px',
-          padding: '10px',
-          color: 'lightblue',
-          fontWeight: 'bold',
-          display: 'inline-block',
-        }}>
-          {`${lastWeekDate.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })} to ${currentDate.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })}`}
-        </div>
-      </div>
-
-      <Figure>
-        <iframe
-          src="https://wakatime.com/share/@Saravanakumar2003/329dcf8c-6405-44e8-9355-32c07448883c.svg"
-          width="500"
-          height="300">
-        </iframe>
-        <iframe
-          src="https://wakatime.com/share/@Saravanakumar2003/ef787f7e-ed82-45f6-86d7-021ed9c6859d.svg"
-          width="500"
-          height="300">
-        </iframe>
-      </Figure>
-
       <h1 style={{ margin: '2rem 0' }}>
-        Coding Platforms,<br /> you can find me on:
+        Coding Platforms, you can find me on:
       </h1>
 
       <Box>
