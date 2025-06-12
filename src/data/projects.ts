@@ -76,6 +76,44 @@ const projects = [
   },
    {
     id: 5,
+    img: '/projects/finance.png',
+    title: 'Personal Finance Tracker',
+    live:'https://personal-finance-tracker-eight.vercel.app',
+    github: 'https://github.com/Bhavani-Bojedla/Personal-Finance-Tracker',
+    tags: [
+      {name: 'College Projects'},
+    ],
+    tech: [
+         {
+        name: 'React',
+        icon: '/icons/react.png',
+      },
+      {
+        name: 'Node Js',
+        icon: '/icons/nodejs.webp'
+      },
+       {
+        name: 'Express Js',
+        icon: '/icons/expressjs.png'
+      },
+       {
+        name: 'MongoDB',
+        icon: '/icons/mongodb.png'
+      },
+       {
+        name: 'Postman',
+        icon: '/icons/postman.png'
+      },
+      { 
+        name: 'GitHub',
+        icon: '/icons/GitHub.png',
+      },
+      
+    ],
+  },
+  
+   {
+    id: 5,
     img: '/projects/health.png',
     title: 'Health Tracker',
     live:'https://hospital-frontend-vert.vercel.app/',
@@ -148,44 +186,57 @@ const projects = [
       
     ],
   },
-  {
+   {
     id: 5,
-    img: '/projects/finance.png',
-    title: 'Personal Finance Tracker',
-    live:'https://personal-finance-tracker-eight.vercel.app/home',
-    github: 'https://github.com/Bhavani-Bojedla/Todo-Backend',
+    img: '/projects/ttt.png',
+    title: 'TIC - TAC - TOE',
+    live:'https://bhavani-bojedla.github.io/Tic-Tac-Toe/game.html',
+    github: 'https://github.com/Bhavani-Bojedla/Tic-Tac-Toe',
     tags: [
-      {name: 'College Projects'},
+      {name: 'Personal Projects'},
     ],
     tech: [
-         {
-        name: 'React',
-        icon: '/icons/react.png',
-      },
-      {
-        name: 'Node Js',
-        icon: '/icons/nodejs.webp'
+       {
+        name: 'Html',
+        icon: '/icons/HTML.png'
       },
        {
-        name: 'Express Js',
-        icon: '/icons/expressjs.png'
+        name: 'CSS',
+        icon: '/icons/CSS.png'
       },
        {
-        name: 'MongoDB',
-        icon: '/icons/mongodb.png'
+        name: 'JavaScript',
+        icon: '/icons/JS.png'
       },
-       {
-        name: 'Postman',
-        icon: '/icons/postman.png'
-      },
-      {
+      { 
         name: 'GitHub',
         icon: '/icons/GitHub.png',
       },
       
     ],
   },
-  
+   {
+    id: 5,
+    img: '/projects/hdd.jpg',
+    title: 'Heart Disease Detection',
+    live:'https://github.com/Bhavani-Bojedla/Heart-Disease-Detection',
+    github: 'https://github.com/Bhavani-Bojedla/Heart-Disease-Detection',
+    tags: [
+      {name: 'College Projects'},
+    ],
+    tech: [
+       {
+        name: 'Python',
+        icon: '/icons/python.png'
+      },
+      { 
+        name: 'GitHub',
+        icon: '/icons/GitHub.png',
+      },
+      
+    ],
+  },
+ 
 
 ]
 

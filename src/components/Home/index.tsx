@@ -134,7 +134,7 @@ export function HomeHero() {
         </HomeText>
 
         <ImgHome>
-          <img className="home-img" src="/home.png" alt="Image Home" />
+          <img className="home-img" src="/home-new.png" alt="Image Home" />
           <div className="code">
             <Image
               width={150}
