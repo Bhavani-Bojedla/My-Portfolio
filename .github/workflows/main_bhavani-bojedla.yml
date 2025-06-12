@@ -35,6 +35,9 @@ jobs:
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write         # ✅ Required for Azure OIDC login
+      contents: read          # ✅ Required for checking out repo, etc.
     steps:
       - name: Download app artifact
         uses: actions/download-artifact@v4
