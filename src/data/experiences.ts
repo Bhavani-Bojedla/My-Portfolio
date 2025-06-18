@@ -42,7 +42,7 @@ const experience = [
       { name: 'JSON', icon: '/icons/JSON.svg' },
       { name: 'Gitlab', icon: '/icons/Github.png' },
     ],
-    date: 'Oct-25 to DEC-25',
+    date: 'Oct-24 to DEC-24',
     link: 'https://unitedtoursindia.com/',
     certificate: 'https://drive.google.com/file/d/1xEVyDxvALRNqAqvudc1y8NRILX94evSV/view?usp=sharing',
   },
