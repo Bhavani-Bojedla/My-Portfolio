@@ -60,20 +60,14 @@ export function Header() {
           <li><Link href="/resume"><span>Resume</span></Link></li>
           <li><Link href="/contact"><span>Contact</span></Link></li>
         </ul> 
-        {/* <Icons>
+        <Icons>
           <Link href="https://github.com/bhavani-bojedla" target="_blank" aria-label="Link to Github">
             <FiGithub />
           </Link>
           <Link href="https://www.linkedin.com/in/bhavani-bojedla/" target="_blank" aria-label="Link to Linkedin">
             <FiLinkedin />
           </Link>
-          <Link href="https://www.instagram.com/bhavanibojedla.me?utm_source=qr" target="_blank" aria-label="Instagram">
-            <FiInstagram />
-          </Link>
-          <Link href="https://api.whatsapp.com/send?phone=918838416187" target="_blank" aria-label="Link to contact via WhatsApp">
-            <FaWhatsapp />
-          </Link>
-        </Icons> */}
+        </Icons>
       </NavMenu>
     </HeaderContainer>
   );
