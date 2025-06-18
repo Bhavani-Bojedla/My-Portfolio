@@ -21,7 +21,7 @@ const experience = [
     ],
     date: 'JAN-25 to Feb-25',
     link: '',
-    certificate: 'https://drive.google.com/file/d/1MNVSun4IndzsA1-e-y4p9T7IZ__NC4Tt/view?usp=sharing',
+    certificate: 'https://drive.google.com/file/d/1lXtOBryPtFqW9jOFYvcErMQko8WTQ8qU/view?usp=sharing',
   },
   {
     id: 3,
