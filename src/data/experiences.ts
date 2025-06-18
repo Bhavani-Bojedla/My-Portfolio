@@ -44,7 +44,7 @@ const experience = [
     ],
     date: 'Oct-24 to DEC-24',
     link: 'https://unitedtoursindia.com/',
-    certificate: 'https://drive.google.com/file/d/1xEVyDxvALRNqAqvudc1y8NRILX94evSV/view?usp=sharing',
+    certificate: 'https://drive.google.com/file/d/1814hGNezzqqr20EQ6phUGY7znVBOiu3e/view?usp=sharing',
   },
     {
     id: 2,
@@ -67,7 +67,7 @@ const experience = [
     ],
     date: 'Oct-24 to Present',
     link: 'https://mvp.microsoft.com/en-US/studentambassadors/profile/187b9405-d69a-4b97-947c-3bbf52122ff7',
-    certificate: 'https://drive.google.com/file/d/1fhcznAb7YokISG4BOeqoWb89Y99YcbCE/view?usp=sharing',
+    certificate: 'https://drive.google.com/file/d/1MhA6lIQF8kJ4yF6huxhY1efl6NgHVkIL/view?usp=sharing',
   },
       {
     id: 1,
@@ -89,7 +89,7 @@ const experience = [
     ],
     date: 'Oct-24 to Present',
     link: 'https://www.vitap.ac.in/clubs-and-chapters/GEEKS%20FOR%20GEEKS%20VIT-AP%20STUDENT%20CHAPTER',
-    certificate: 'https://drive.google.com/file/d/1dRfbuNnS6leaHybjC4PvAX-BfYAxj0Rj/view?usp=sharing',
+    certificate: 'https://drive.google.com/file/d/1VMpHoe7PqlHp2FAH91z-D2YnFSdessk-/view?usp=sharing',
   },
 ];
 
