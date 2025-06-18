@@ -40,7 +40,7 @@ export default function Resume() {
         </Description>
          <PageSection style={{ justifyContent: 'center' }}>
           <Image
-            src="/resume.png" // or resume.png
+            src="/resume.jpg" // or resume.png
             alt="Resume Preview"
             width={740}
             height={960}

@@ -27,11 +27,13 @@ export default function Home() {
       <Section>
         <HomeHero />
         <About />
-        <Skills />
-        <Education />
         <Experience />
-        <Certificates />
+        <Skills />
         <Projects />
+        <Education />
+        
+        <Certificates />
+        
         {/* <Wakatime/> */}
         <Jokes />
         <CardContact />
